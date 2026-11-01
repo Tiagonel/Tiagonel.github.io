@@ -2,141 +2,37 @@
 <html lang="de">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#101711">
-  <meta name="description" content="Reiseübersicht für die Olivenernte in Portugal 2026 – gebuchte Flüge und offene Mietwagenreservierung.">
-  <title>Olivenernte Portugal 2026 – Reiseübersicht</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Informationen zu Emidio Hermes Personal, einem privaten KI-Assistenten für den persönlichen Gebrauch.">
+  <title>Emidio Hermes Personal</title>
   <style>
-    :root{
-      --ink:#151814;--muted:#687067;--paper:#f7f7f2;--white:#fff;
-      --forest:#15271a;--olive:#6f7d4e;--lime:#d8f09c;--sand:#e8e1d3;
-      --line:rgba(21,24,20,.11);--radius:24px;--shadow:0 20px 60px rgba(27,39,27,.10);
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
-    img{display:block;max-width:100%}
-    .shell{width:min(1180px,calc(100% - 40px));margin-inline:auto}
-    .nav{position:absolute;inset:0 0 auto;z-index:5;padding:22px 0;color:#fff}
-    .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:20px}
-    .brand{display:flex;align-items:center;gap:11px;font-size:.88rem;font-weight:750;letter-spacing:-.01em}
-    .brand-mark{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(16px)}
-    .nav-status{display:flex;align-items:center;gap:9px;padding:9px 14px;border-radius:999px;background:rgba(14,22,15,.42);border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(16px);font-size:.76rem;font-weight:700}
-    .dot{width:8px;height:8px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 5px rgba(216,240,156,.14)}
-    .hero{position:relative;min-height:760px;display:grid;align-items:end;overflow:hidden;background:#111}
-    .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 44%;filter:saturate(.84) contrast(1.02)}
-    .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,15,9,.20) 0%,rgba(8,15,9,.18) 32%,rgba(8,15,9,.88) 100%)}
-    .hero-content{position:relative;z-index:2;color:#fff;padding:180px 0 72px}
-    .eyebrow{display:flex;align-items:center;gap:10px;text-transform:uppercase;letter-spacing:.16em;font-weight:750;font-size:.69rem;color:rgba(255,255,255,.75)}
-    .eyebrow:before{content:"";width:30px;height:1px;background:var(--lime)}
-    h1{font-size:clamp(3.4rem,9vw,7.7rem);line-height:.91;letter-spacing:-.075em;max-width:900px;margin:23px 0 30px;font-weight:650;text-wrap:balance}
-    .hero-bottom{display:grid;grid-template-columns:minmax(0,620px) auto;justify-content:space-between;align-items:end;gap:40px}
-    .hero-copy{font-size:clamp(1.04rem,2vw,1.3rem);color:rgba(255,255,255,.78);max-width:570px;margin:0}
-    .date-chip{padding:17px 20px;border-radius:18px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(18px);min-width:210px}
-    .date-chip small{display:block;color:rgba(255,255,255,.61);font-size:.7rem;text-transform:uppercase;letter-spacing:.13em;margin-bottom:4px}.date-chip strong{font-size:1rem}
-    main{padding:24px 0 90px}
-    .progress{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:80px}
-    .progress-card{border-radius:20px;padding:22px 24px;display:flex;align-items:center;gap:16px;background:var(--white);border:1px solid var(--line)}
-    .progress-card.done{background:var(--forest);color:#fff;border-color:var(--forest)}
-    .progress-icon{width:42px;height:42px;flex:0 0 42px;border-radius:50%;display:grid;place-items:center;background:var(--lime);color:var(--forest);font-weight:900}
-    .progress-card.open .progress-icon{background:#f0eadc;color:#92691e}
-    .progress-card small{display:block;font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:inherit;opacity:.58}.progress-card strong{display:block;font-size:1rem;margin-top:2px}
-    .section-top{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:25px}
-    .kicker{font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--olive);font-weight:800;margin-bottom:9px}
-    h2{font-size:clamp(2.35rem,5vw,4.8rem);line-height:.97;letter-spacing:-.055em;margin:0;font-weight:650}
-    .section-note{max-width:350px;color:var(--muted);font-size:.95rem;margin:0}
-    .flight-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-    .flight-card{position:relative;background:var(--white);border-radius:var(--radius);padding:30px;box-shadow:0 1px 0 var(--line);overflow:hidden}
-    .flight-card:after{content:"";position:absolute;width:180px;height:180px;border-radius:50%;right:-92px;top:-92px;background:var(--lime);opacity:.32}
-    .flight-head{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:45px;position:relative;z-index:1}
-    .flight-day{font-size:.76rem;font-weight:750}.badge{border-radius:999px;background:#e8f4df;color:#245036;padding:7px 11px;font-size:.66rem;font-weight:850;text-transform:uppercase;letter-spacing:.09em}
-    .route{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:18px;margin-bottom:28px}
-    .airport:last-child{text-align:right}.time{display:block;font-size:clamp(2.1rem,4.5vw,3.25rem);font-weight:640;letter-spacing:-.055em;line-height:1}.code{display:block;color:var(--muted);font-size:.72rem;margin-top:8px;text-transform:uppercase;letter-spacing:.08em}
-    .route-line{height:1px;background:var(--line);position:relative}.route-line:before{content:"";position:absolute;left:0;right:0;top:-2px;border-top:1px dashed #99a08f}.plane{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--forest);color:#fff;font-size:.82rem}
-    .segments{border-top:1px solid var(--line);padding-top:8px}.segment{display:grid;grid-template-columns:58px 1fr auto;gap:12px;padding:12px 0;font-size:.82rem}.segment+.segment{border-top:1px solid var(--line)}.segment time,.flight-no{font-weight:750}.segment span:nth-child(2){color:var(--muted)}
-    .stop{margin-top:18px;display:inline-flex;gap:8px;align-items:center;color:var(--muted);font-size:.75rem}.stop:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--olive)}
-    .facts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0 90px}
-    .fact{min-height:132px;border-radius:20px;background:#ecece5;padding:22px;display:flex;flex-direction:column;justify-content:space-between}.fact:nth-child(2),.fact:nth-child(7){background:var(--sand)}.fact:nth-child(3){background:var(--lime)}
-    .fact small{font-size:.65rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:750}.fact strong{font-size:1.03rem;line-height:1.2;letter-spacing:-.02em}
-    .rental{position:relative;overflow:hidden;background:var(--forest);color:#fff;border-radius:32px;display:grid;grid-template-columns:1.15fr .85fr;min-height:480px}
-    .rental-copy{padding:clamp(34px,6vw,70px);position:relative;z-index:1}.rental .kicker{color:var(--lime)}.rental h2{max-width:590px}.rental-lead{color:rgba(255,255,255,.66);font-size:1.02rem;max-width:540px;margin:24px 0 34px}
-    .rental-list{display:grid;gap:12px}.rental-row{display:grid;grid-template-columns:135px 1fr;gap:15px;padding-top:12px;border-top:1px solid rgba(255,255,255,.13);font-size:.84rem}.rental-row span{color:rgba(255,255,255,.5)}
-    .rental-visual{position:relative;min-height:390px}.rental-visual img{width:100%;height:100%;object-fit:cover;filter:saturate(.72)}.rental-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--forest),transparent 55%)}
-    .todo{position:absolute;right:24px;bottom:24px;z-index:2;width:min(310px,calc(100% - 48px));background:rgba(255,255,255,.92);color:var(--ink);padding:22px;border-radius:20px;backdrop-filter:blur(18px);box-shadow:var(--shadow)}
-    .todo-top{display:flex;justify-content:space-between;gap:10px;align-items:center}.todo-label{font-size:.66rem;text-transform:uppercase;letter-spacing:.12em;font-weight:850;color:var(--muted)}.pending{font-size:.63rem;text-transform:uppercase;letter-spacing:.09em;padding:6px 9px;border-radius:999px;background:#f6e7c8;color:#81590f;font-weight:850}.todo strong{display:block;font-size:1.3rem;margin:19px 0 6px;letter-spacing:-.03em}.todo p{font-size:.8rem;color:var(--muted);margin:0}
-    .closing{display:grid;grid-template-columns:.7fr 1.3fr;gap:44px;align-items:center;padding:90px 0 55px}.closing img{border-radius:24px;width:100%;aspect-ratio:4/3;object-fit:cover}.closing h2{font-size:clamp(2.5rem,5.5vw,5rem)}.closing p{color:var(--muted);max-width:560px;font-size:1rem}
-    footer{border-top:1px solid var(--line);padding:25px 0 38px;color:var(--muted);font-size:.75rem}.footer-inner{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
-    @media(max-width:820px){
-      .shell{width:min(100% - 28px,680px)}.hero{min-height:690px}.hero-content{padding-bottom:38px}.hero-bottom{grid-template-columns:1fr}.date-chip{justify-self:start}.progress{margin-bottom:60px}.section-top{align-items:start;flex-direction:column}.flight-grid,.rental,.closing{grid-template-columns:1fr}.facts{grid-template-columns:1fr 1fr;margin-bottom:65px}.rental-visual{min-height:360px}.rental-visual:after{background:linear-gradient(180deg,var(--forest),transparent 35%)}.closing{gap:24px;padding-top:65px}.closing img{max-height:460px}
-    }
-    @media(max-width:520px){
-      .shell{width:calc(100% - 24px)}.nav{padding-top:14px}.brand span:last-child{display:none}.nav-status{font-size:.68rem;padding:8px 11px}.hero{min-height:650px}.hero-content{padding-top:130px}.eyebrow{font-size:.6rem}h1{font-size:clamp(3rem,16vw,4.6rem);margin-top:18px}.hero-copy{font-size:1rem}.date-chip{width:100%;min-width:0}.progress{grid-template-columns:1fr;gap:8px;margin-top:12px}.progress-card{padding:17px}.progress-icon{width:36px;height:36px;flex-basis:36px}.section-top{margin-bottom:18px}.flight-grid{gap:12px}.flight-card{padding:22px;border-radius:20px}.flight-head{margin-bottom:34px}.segment{grid-template-columns:49px 1fr}.flight-no{grid-column:2}.facts{grid-template-columns:1fr 1fr;gap:8px}.fact{min-height:112px;padding:17px;border-radius:16px}.fact strong{font-size:.9rem}.rental{border-radius:24px}.rental-copy{padding:30px 22px}.rental-row{grid-template-columns:1fr;gap:3px}.rental-visual{min-height:350px}.todo{right:14px;bottom:14px;width:calc(100% - 28px);padding:18px}.closing{padding-bottom:40px}.closing img{border-radius:18px}footer{padding-bottom:calc(30px + env(safe-area-inset-bottom))}
-    }
-    @media(prefers-reduced-motion:no-preference){.flight-card,.fact,.progress-card{transition:transform .25s ease,box-shadow .25s ease}.flight-card:hover,.fact:hover{transform:translateY(-3px);box-shadow:var(--shadow)}}
-    @media print{.nav{position:absolute}.hero{min-height:520px}.flight-card,.rental{break-inside:avoid}body{background:#fff}}
+    :root{color-scheme:dark;--bg:#07111f;--panel:#0d1b2d;--line:#263a53;--text:#eef5ff;--muted:#a9bbd0;--accent:#63d6c2;--accent2:#8aa7ff}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 80% 10%,#152b4b 0,transparent 36%),linear-gradient(160deg,#07111f,#091525 55%,#0a1728);color:var(--text);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{width:min(900px,calc(100% - 32px));margin:auto;padding:72px 0}.eyebrow{color:var(--accent);font-size:.8rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}h1{max-width:760px;margin:.3rem 0 1rem;font-size:clamp(2.4rem,7vw,5.7rem);line-height:.98;letter-spacing:-.055em}h1 span{color:var(--accent)}.lead{max-width:690px;color:var(--muted);font-size:clamp(1.05rem,2.5vw,1.3rem)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:48px 0 24px}.card{min-height:210px;padding:24px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(145deg,rgba(17,35,57,.92),rgba(10,24,40,.92));box-shadow:0 18px 50px rgba(0,0,0,.18)}.card b{display:block;margin-bottom:12px;color:var(--accent2);font-size:.8rem;letter-spacing:.12em;text-transform:uppercase}.card p{margin:0;color:var(--muted)}
+    .notice{margin-top:24px;padding:24px;border-left:3px solid var(--accent);border-radius:0 16px 16px 0;background:rgba(99,214,194,.07)}footer{display:flex;flex-wrap:wrap;gap:14px 24px;margin-top:48px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:.92rem}a{color:var(--accent);text-underline-offset:4px}a:focus-visible{outline:3px solid var(--accent2);outline-offset:4px;border-radius:4px}
+    @media(max-width:720px){main{padding:48px 0}.grid{grid-template-columns:1fr}.card{min-height:0}h1{font-size:clamp(2.5rem,14vw,4.2rem)}}
   </style>
 </head>
 <body>
-  <header class="hero">
-    <img class="hero-bg" src="assets/ernte-abend.webp" alt="Olivenernte im Abendlicht unter einem alten Olivenbaum">
-    <nav class="nav" aria-label="Reisestatus"><div class="shell nav-inner">
-      <div class="brand"><span class="brand-mark" aria-hidden="true">◒</span><span>Olivenernte · Portugal 2026</span></div>
-      <div class="nav-status"><span class="dot"></span> Flug gebucht</div>
-    </div></nav>
-    <div class="shell hero-content">
-      <div class="eyebrow">Hamburg nach Porto</div>
-      <h1>Zurück zu den Wurzeln.</h1>
-      <div class="hero-bottom">
-        <p class="hero-copy">Die Flüge stehen. Gemeinsam geht’s wieder zur Olivenernte nach Portugal – eine Woche für Familie, Heimat und Tradition.</p>
-        <div class="date-chip"><small>Reisezeitraum</small><strong>28. Nov. – 5. Dez. 2026</strong></div>
-      </div>
-    </div>
-  </header>
+<main>
+  <p class="eyebrow">Privater KI-Assistent</p>
+  <h1>Emidio Hermes <span>Personal</span></h1>
+  <p class="lead">Diese Anwendung ist die technische Verbindung für Kitt, Emidios persönlichen KI-Assistenten. Sie wird ausschließlich von Emidio für sein eigenes Google-Konto verwendet und nicht als öffentlicher Dienst angeboten.</p>
 
-  <main><div class="shell">
-    <section class="progress" aria-label="Buchungsfortschritt">
-      <div class="progress-card done"><div class="progress-icon">✓</div><div><small>Schritt 1 abgeschlossen</small><strong>Flüge verbindlich gebucht</strong></div></div>
-      <div class="progress-card open"><div class="progress-icon">2</div><div><small>Nächster Schritt</small><strong>Mietwagen durch Alex reservieren</strong></div></div>
-    </section>
+  <section class="grid" aria-label="Funktionen und Grenzen">
+    <article class="card"><b>Zweck</b><p>Kitt unterstützt Emidio dabei, persönliche E-Mails auf Anfrage zu finden und zusammenzufassen sowie Termine aus seinen Kalendern zu berücksichtigen.</p></article>
+    <article class="card"><b>Zugriff</b><p>Die Anwendung verwendet nur die für Gmail und Google Calendar notwendigen Berechtigungen. Aktionen wie das Senden von E-Mails oder Ändern von Terminen benötigen Emidios ausdrückliche Bestätigung.</p></article>
+    <article class="card"><b>Nicht öffentlich</b><p>Es gibt keine Registrierung, keine weiteren Nutzer, keine Werbung und keinen Verkauf persönlicher Daten. Die Anwendung dient ausschließlich dem persönlichen Gebrauch.</p></article>
+  </section>
 
-    <section aria-labelledby="flights-title">
-      <div class="section-top"><div><div class="kicker">Gebuchte Verbindung</div><h2 id="flights-title">Hamburg ↔ Porto</h2></div><p class="section-note">Hin über Paris-Charles-de-Gaulle, zurück über Amsterdam-Schiphol.</p></div>
-      <div class="flight-grid">
-        <article class="flight-card">
-          <div class="flight-head"><span class="flight-day">Sa, 28. November</span><span class="badge">Gebucht</span></div>
-          <div class="route"><div class="airport"><span class="time">06:00</span><span class="code">HAM · Hamburg</span></div><div class="route-line"><span class="plane">✈</span></div><div class="airport"><span class="time">10:35</span><span class="code">OPO · Porto</span></div></div>
-          <div class="segments"><div class="segment"><time>06:00</time><span>Hamburg → Paris-CDG</span><span class="flight-no">AF 1611</span></div><div class="segment"><time>—</time><span>Paris-CDG → Porto</span><span class="flight-no">AF 1528</span></div></div>
-          <div class="stop">1 Umstieg · Paris-Charles-de-Gaulle</div>
-        </article>
-        <article class="flight-card">
-          <div class="flight-head"><span class="flight-day">Sa, 5. Dezember</span><span class="badge">Gebucht</span></div>
-          <div class="route"><div class="airport"><span class="time">16:10</span><span class="code">OPO · Porto</span></div><div class="route-line"><span class="plane">✈</span></div><div class="airport"><span class="time">21:55</span><span class="code">HAM · Hamburg</span></div></div>
-          <div class="segments"><div class="segment"><time>16:10</time><span>Porto → Amsterdam</span><span class="flight-no">AF 1574</span></div><div class="segment"><time>—</time><span>Amsterdam → Hamburg</span><span class="flight-no">AF 1759</span></div></div>
-          <div class="stop">1 Umstieg · Amsterdam-Schiphol</div>
-        </article>
-      </div>
-      <div class="facts" aria-label="Buchungsdetails">
-        <div class="fact"><small>Reisende</small><strong>Emidio &amp; Alex</strong></div>
-        <div class="fact"><small>Gebucht über</small><strong>CHECK24<br>04.10.2026</strong></div>
-        <div class="fact"><small>Gesamtpreis</small><strong>519,42 €</strong></div>
-        <div class="fact"><small>Reisedauer</small><strong>7 Nächte</strong></div>
-        <div class="fact"><small>Aufgabegepäck</small><strong>Alex · 1 × 23 kg je Strecke</strong></div>
-        <div class="fact"><small>Kleine Tasche</small><strong>Für beide enthalten</strong></div>
-        <div class="fact"><small>Gepäckkosten</small><strong>91,00 € enthalten</strong></div>
-        <div class="fact"><small>Versicherung</small><strong>ERGO · 29,00 € enthalten</strong></div>
-      </div>
-    </section>
+  <div class="notice"><strong>Datenschutz:</strong> Details zu Zugriff, Verarbeitung, Speicherung und Widerruf stehen in der <a href="privacy.html">Datenschutzerklärung</a>.</div>
 
-    <section class="rental" aria-labelledby="rental-title">
-      <div class="rental-copy"><div class="kicker">Noch offen</div><h2 id="rental-title">Jetzt fehlt nur noch der Mietwagen.</h2><p class="rental-lead">Alex übernimmt die Reservierung. Sobald die Daten stehen, ist die Reiseplanung vollständig.</p>
-        <div class="rental-list"><div class="rental-row"><span>Zeitraum</span><strong>28.11. bis 05.12.2026</strong></div><div class="rental-row"><span>Abholung &amp; Rückgabe</span><strong>Passend zu Ankunft und Abflug in Porto</strong></div><div class="rental-row"><span>Noch festzulegen</span><strong>Anbieter, Fahrzeugklasse, Preis und Buchungsnummer</strong></div></div>
-      </div>
-      <div class="rental-visual"><img src="assets/oliven-im-netz.webp" alt="Frisch geerntete Oliven in einem grünen Netz"><aside class="todo"><div class="todo-top"><span class="todo-label">Aufgabe für Alex</span><span class="pending">Offen</span></div><strong>Mietwagen reservieren</strong><p>Für den gesamten Reisezeitraum, idealerweise direkt am Flughafen Porto.</p></aside></div>
-    </section>
-
-    <section class="closing"><img src="assets/oliven-im-netz.webp" alt="Oliven im Netz unter den Bäumen"><div><div class="kicker">Gemeinsame Tradition</div><h2>Eine Woche, die bleibt.</h2><p>Netze auslegen, Oliven von den Bäumen holen und Zeit miteinander verbringen. Es geht nicht nur um die Ernte – sondern um Familie, Heimat und Erinnerungen.</p></div></section>
-  </div></main>
-
-  <footer><div class="shell footer-inner"><span>Reiseübersicht für Alex und Emidio</span><span>Stand: 4. Oktober 2026 · Verbindlich sind die aktuellen Angaben von Air France, CHECK24 und den Flughäfen.</span></div></footer>
+  <footer>
+    <span>Stand: 1. November 2026</span>
+    <a href="mailto:emidio.branco@gmail.com">Kontakt</a>
+    <a href="privacy.html">Datenschutzerklärung</a>
+  </footer>
+</main>
 </body>
 </html>
